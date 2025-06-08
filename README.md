@@ -2,7 +2,7 @@
 ```
 # 🎥 VidBloq Program
 
-A custom [Anchor](https://book.anchor-lang.com/) smart contract that powers stream-specific wallets on the Solana blockchain. This program enables users to create and manage on-chain wallets for live streams or events, allowing token deposits, distributions, and refunds—enabling use cases like real-time tipping, gated access, or DAO rewards.
+A program that powers stream-specific wallets on the Solana blockchain. This program enables users to create and manage on-chain wallets for live streams or events, allowing token deposits, distributions, and refunds—enabling use cases like real-time tipping, gated access, or DAO rewards.
 
 ## ✨ Features
 
@@ -16,7 +16,7 @@ A custom [Anchor](https://book.anchor-lang.com/) smart contract that powers stre
 ## 📦 Repo Structure
 
 ├── programs/
-│   └── stream-wallet/     # Anchor smart contract
+│   └── vidbloq-program/     # Anchor smart contract
 ├── tests/                 # Mocha + Anchor tests
 ├── migrations/            # Anchor deployment scripts
 └── README.md
