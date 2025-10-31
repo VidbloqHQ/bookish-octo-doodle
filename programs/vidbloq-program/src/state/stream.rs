@@ -137,6 +137,40 @@ pub enum StreamError {
 
     #[msg("Name must be between 4 and 32 characters")]
     NameLengthInvalid,
+
+    // Betting errors
+      #[msg("Invalid market setup")]
+    InvalidMarketSetup,
+    #[msg("Invalid outcome")]
+    InvalidOutcome,
+    #[msg("Market already resolved")]
+    MarketResolved,
+    #[msg("Betting period closed")]
+    BettingClosed,
+    #[msg("Market not ready for resolution")]
+    MarketNotReady,
+    #[msg("Insufficient validators")]
+    InsufficientValidators,
+    #[msg("Invalid mint for betting market")]
+    InvalidMint,
+    #[msg("Invalid fee percentage")]
+    InvalidFeePercentage,
+    #[msg("Slippage tolerance exceeded")]
+    SlippageExceeded,
+    #[msg("Market not resolved")]
+    MarketNotResolved,
+    #[msg("Already claimed")]
+    AlreadyClaimed,
+    #[msg("No winnings to claim")]
+    NoWinnings,
+    #[msg("Invalid resolution state")]
+    InvalidResolutionState,
+    #[msg("Not a validator")]
+    NotValidator,
+    #[msg("Insufficient stake for validation")]
+    InsufficientStakeForValidation,
+    #[msg("Already voted")]
+    AlreadyVoted,
 }
 
 // Remember to add the enum that Ayo suggested to handle donations and refunds

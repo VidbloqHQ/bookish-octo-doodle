@@ -8,3 +8,5 @@ pub mod refund;
 pub use refund::*;
 pub mod stream_controls;
 pub use stream_controls::*;
+pub mod betting;
+pub use betting::*;
